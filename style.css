@@ -1,0 +1,475 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hammersmith One', sans-serif;
+  scroll-behavior: smooth;
+}
+.banner
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(image/about.jpg);
+  background-size:cover;
+
+}
+.banner .content
+{
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content h2{
+  font-size: 5em;
+color: #fff;
+
+}
+.banner  .content p{
+  font-size: 1em;
+  color: #fff;
+}
+.btn{
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn:hover{
+  letter-spacing: 6px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+
+}
+ .sticky{
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+.logo{
+  font-size: 4em;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+ .sticky .logo{
+  color: #111;
+  transition: 2s;
+}
+
+.logo span{
+  color: #ff0157;
+}
+header .navi{
+  position: relative;
+  display: flex;
+}
+header .navi li{
+  list-style: none;
+  margin-left: 4px;
+  font-size: 1em;
+  color: #000;
+  background: #fff;
+ display: flex;
+  padding:5px 10px;
+  margin-top: 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+header .navi li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+header .navi li a{
+ color: #111;
+}
+header .navi li a:hover{
+  color: #ff0157;
+}
+section{
+  padding: 100px;
+}
+.row{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .col50{
+  position: relative;
+  width: 50%;
+}
+.titletext{
+  color: #111;
+  font-size: 2em;
+   font-weight: 300;
+}
+.titletext span{
+  color: #ff0157;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.row .col50 .imgBx{
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+}
+.row .col50 .imgbx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product  .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.product  .content .box{
+  width: 340px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.product  .content .box .imgBx{
+position: relative;
+width: 100%;
+height: 300px;
+}
+.product  .content .box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ object-fit: cover;
+}
+.product  .content .box .text{
+  padding: 15px 0 5px;
+}
+.product  .content .box .text{
+  font-weight: 400;
+  color: #111;
+}
+.inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+ .inputBox input,
+ .inputBox textarea{
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+ .inputBox input[type='submit']
+{
+  font-size: 1em;
+  color: #fff;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5;
+  max-width: 150px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.title .titleText{
+  font-size: 2em;
+}
+.title .titleText span{
+  color: #ff0157;
+  font-size: 45px;
+}
+.testimonials{
+  background: url(image/test2.jpg);
+  background-size: cover;
+}
+.white .titleText,
+.white p{
+  color: #fff;
+}
+
+.testimonials .content{
+  display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ flex-direction: row;
+ margin-top: 40px;
+}
+.testimonials .content .box{
+  width: 340px;
+  margin: 20px;
+  padding: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials .content .box .imgBx{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonials .content .box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ object-fit: cover;
+}
+.testimonials .content .box .text{
+  text-align: center;
+}
+.testimonials .content .box .text p{
+  color: #666;
+  font-style: italic;
+}
+.testimonials .content .box .text h3{
+  margin-top: 20px;
+  color: #111;
+  font-size: 1em;
+  color: #ff0157;
+  font-weight: 600;
+}
+.Contact{
+  background: url(image/cont3.jpg);
+  background-size: cover;
+
+
+}
+.Contact h3 span{
+color:#ff0157;
+font-size: 2em;
+
+}
+.ContactForm{
+padding: 70px;
+margin: 50px;
+box-sizing: border-box;
+border-radius: 8px;
+box-shadow: 0 0 20px #000000b3;
+left: -90%;
+width: 40%;
+}
+.ContactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.ContactForm .inputBox input,
+.ContactForm .inputBox textarea{
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+.ContactForm .inputBox button
+{
+  font-size: 1em;
+  color: #fff;
+  padding: 10px 20px;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5;
+  max-width: 100px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.ContactForm .inputBox button:hover{
+   background-color: #66a103;
+    transition: 0.3s;
+}
+.de{
+  margin-top: 60px;
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+.client{
+	background: #;
+	padding-top: 90px;
+	text-align: center;
+
+}
+.client h2{
+  font-size: 2em;
+  margin-top: 40px;
+
+}
+.client h2 span{
+  color:#ff0157;
+}
+.client .imgBx{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 60px;
+  color:#162c3b;
+
+}
+.client .imgBx img{
+	max-width: 300px;
+	margin: 20px;
+
+	cursor: pointer;
+}
+.client .imgBx img:hover{
+	opacity: 1;
+}
+.footer{
+  background: #000;
+  height: 80px;
+}
+.footer  .p{
+  color: #fff;
+  padding: 25px;
+}
+  .title1{
+  	text-align: center;
+  	margin: 0 auto 80px;
+  	position: relative;
+  	line-height: 60px;
+  	color: #555;
+  }
+  .title1::after{
+  	content: '';
+  	background:  #ff0157;
+  	width: 120px;
+  	height: 5px;
+  	border-radius: 5px;
+  	position: absolute;
+  	bottom:0;
+  	left: 50%;
+  	transform: translateX(-50%);
+  }
+
+
+
+
+
+.testimonials1{
+  position: relative;
+ display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px; 
+}
+.white .titleText,
+.white p{
+  color: #fff;
+}
+
+.testimonials1 .content1{
+  position: absolute;
+  display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ flex-direction: row;
+ padding-right: 35px;
+ margin-top: ;
+}
+.testimonials1 .content1 .box1{
+  position: absolute;
+  width: 470px;
+  
+  padding: 60px;
+  padding-right: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials1 .content1 .box1 .imgBx1{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonials1 .content1 .box1 .imgBx1 img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ object-fit: cover;
+}
+.testimonials1 .content1 .box1 .text1{
+  text-align: center;
+}
+.testimonials1 .content1 .box1 .text1 p{
+  color: #666;
+  font-style: italic;
+}
+.testimonials1 .content1 .box1 .text1 h2{
+  margin-top: 20px;
+
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.testimonials1 .content1 .box1 .text1 h2 span{
+  color: #ff0157;
+  font-size: 30px;
+}
